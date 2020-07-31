@@ -1,0 +1,16 @@
+package: project
+import:
+- package: github.com/dgrijalva/jwt-go
+- package: github.com/google/uuid
+- package: github.com/gorilla/mux
+- package: github.com/rs/cors
+- package: go.mongodb.org/mongo-driver
+  subpackages:
+  - bson
+  - bson/primitive
+  - mongo
+  - mongo/options
+  - mongo/readpref
+- package: golang.org/x/crypto
+  subpackages:
+  - bcrypt
