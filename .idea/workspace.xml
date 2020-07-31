@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0dd2a12d-014a-48fb-8cd5-d6b181cfcff0" name="Default Changelist" comment="" />
+    <list default="true" id="0dd2a12d-014a-48fb-8cd5-d6b181cfcff0" name="Default Changelist" comment="readme">
+      <change afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/detect" beforeDir="false" afterPath="$PROJECT_DIR$/bin/detect" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,18 +20,33 @@
     </option>
   </component>
   <component name="GOROOT" path="$USER_HOME$/sdk/go1.12.17" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1fER5uhC1MOm4vXG4C0DZDW5FWS" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="GO_FMT" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="go build project" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -49,27 +68,44 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="readme" />
+    <option name="LAST_COMMIT_MESSAGE" value="readme" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="856" y="453" width="277" height="207" key="Github.ShareDialog" timestamp="1596223526496">
+    <state x="699" y="355" width="583" height="403" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1596230537704">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
-    <state x="856" y="453" width="277" height="207" key="Github.ShareDialog/70.27.1850.1053@70.27.1850.1053" timestamp="1596223526496" />
-    <state width="1354" height="258" key="GridCell.Tab.0.bottom" timestamp="1596223202545">
+    <state x="699" y="355" width="583" height="403" key="#com.intellij.fileTypes.FileTypeChooser/70.27.1850.1053@70.27.1850.1053" timestamp="1596230537704" />
+    <state x="395" y="153" width="1200" height="800" key="DiffContextDialog" timestamp="1596226107615">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
-    <state width="1354" height="258" key="GridCell.Tab.0.bottom/70.27.1850.1053@70.27.1850.1053" timestamp="1596223202545" />
-    <state width="1354" height="258" key="GridCell.Tab.0.center" timestamp="1596223202544">
+    <state x="395" y="153" width="1200" height="800" key="DiffContextDialog/70.27.1850.1053@70.27.1850.1053" timestamp="1596226107615" />
+    <state x="856" y="453" width="277" height="285" key="Github.ShareDialog" timestamp="1596223819709">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
-    <state width="1354" height="258" key="GridCell.Tab.0.center/70.27.1850.1053@70.27.1850.1053" timestamp="1596223202544" />
-    <state width="1354" height="258" key="GridCell.Tab.0.left" timestamp="1596223202544">
+    <state x="856" y="453" width="277" height="285" key="Github.ShareDialog/70.27.1850.1053@70.27.1850.1053" timestamp="1596223819709" />
+    <state x="811" y="240" width="357" height="633" key="Github.UntrackedFilesDialog" timestamp="1596223847569">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
-    <state width="1354" height="258" key="GridCell.Tab.0.left/70.27.1850.1053@70.27.1850.1053" timestamp="1596223202544" />
-    <state width="1354" height="258" key="GridCell.Tab.0.right" timestamp="1596223202545">
+    <state x="811" y="240" width="357" height="633" key="Github.UntrackedFilesDialog/70.27.1850.1053@70.27.1850.1053" timestamp="1596223847569" />
+    <state width="1354" height="258" key="GridCell.Tab.0.bottom" timestamp="1596223987203">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
-    <state width="1354" height="258" key="GridCell.Tab.0.right/70.27.1850.1053@70.27.1850.1053" timestamp="1596223202545" />
+    <state width="1354" height="258" key="GridCell.Tab.0.bottom/70.27.1850.1053@70.27.1850.1053" timestamp="1596223987203" />
+    <state width="1354" height="258" key="GridCell.Tab.0.center" timestamp="1596223987203">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state width="1354" height="258" key="GridCell.Tab.0.center/70.27.1850.1053@70.27.1850.1053" timestamp="1596223987203" />
+    <state width="1354" height="258" key="GridCell.Tab.0.left" timestamp="1596223987202">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state width="1354" height="258" key="GridCell.Tab.0.left/70.27.1850.1053@70.27.1850.1053" timestamp="1596223987202" />
+    <state width="1354" height="258" key="GridCell.Tab.0.right" timestamp="1596223987203">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state width="1354" height="258" key="GridCell.Tab.0.right/70.27.1850.1053@70.27.1850.1053" timestamp="1596223987203" />
     <state width="1354" height="319" key="GridCell.Tab.1.bottom" timestamp="1595962157780">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
@@ -86,6 +122,10 @@
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
     <state width="1354" height="319" key="GridCell.Tab.1.right/70.27.1850.1053@70.27.1850.1053" timestamp="1595962157779" />
+    <state x="590" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1596230607411">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state x="590" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2/70.27.1850.1053@70.27.1850.1053" timestamp="1596230607411" />
     <state x="605" y="166" width="770" height="780" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1595874517500">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
