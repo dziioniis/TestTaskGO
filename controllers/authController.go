@@ -15,6 +15,10 @@ var CreateAccount = func(w http.ResponseWriter, r *http.Request) {
 	json.NewDecoder(r.Body).Decode(account)
 	account.Create()
 }
+var HelloWorld = func(w http.ResponseWriter, r *http.Request) {
+	w.Header().Add("Content-Type", "application/json")
+	json.NewEncoder(w).Encode("hello")
+}
 
 var CreateTokens= func(w http.ResponseWriter, r *http.Request){
 tkn := &models.TokenDetails{}

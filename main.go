@@ -24,7 +24,7 @@ import (
 func main() {
 
 	r := mux.NewRouter()
-
+	r.HandleFunc("/", controllers.HelloWorld).Methods("Get")
 	r.HandleFunc("/account", controllers.CreateAccount).Methods("POST")
 	r.HandleFunc("/delete", controllers.DeleteRefreshToken).Methods("POST")
 	r.HandleFunc("/deleteAllRF", controllers.DeleteAllRefreshTokenById).Methods("POST")
